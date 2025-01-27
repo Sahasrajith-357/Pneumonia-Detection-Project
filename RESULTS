@@ -5,5 +5,5 @@
 | F1 SCORE  | 0.90930   | 0.90606      | 0.88940       |
 
 
-### CONCLUSION :  
-- **VGG19_224** performs the best among all the models   
+CONCLUSION :  
+- VGG19_224 performs the best among all the models   
