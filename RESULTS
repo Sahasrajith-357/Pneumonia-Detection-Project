@@ -3,3 +3,7 @@
 | PRECISION | 0.85044   | 0.84478      | 0.80753       |
 | RECALL    | 0.97692   | 0.97692      | 0.98974       |
 | F1 SCORE  | 0.90930   | 0.90606      | 0.88940       |
+
+
+### CONCLUSION :  
+- **VGG19_224** performs the best among all the models   
