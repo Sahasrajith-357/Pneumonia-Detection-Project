@@ -26,10 +26,10 @@
 ### Implementation Details:
 - All the images in the training set were converted to numpy arrays and stored (`images`), and the labels of each class were stored in a numpy array (`labels`).  
 - The training set was split into training and validation sets in an 80:20 ratio.  
-- To handle the imbalance between the classes (Pneumonia has more images), class weights were computed and used.
+- To handle the imbalance between the classes (Pneumonia has more images), class weights were computed and used. refer to https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
 
 ### Building the Model:
-With the help of transfer learning, existing architectures trained on large datasets such as **ImageNet** were used to build the final model.
+With the help of transfer learning, existing architectures trained on large datasets such as **ImageNet** were used to build the final model. refer to https://keras.io/guides/transfer_learning/
 
 - The top layer of the base model was removed, and the classifier was modified to suit our problem.  
 - The weights were frozen, and the model was trained in **inference mode**.  
